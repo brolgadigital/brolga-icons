@@ -16,5 +16,16 @@
     "bugs": {
         "url": "https://github.com/brolgadigital/brolga-icons/issues"
     },
-    "homepage": "https://github.com/brolgadigital/brolga-icons#readme"
+    "homepage": "https://github.com/brolgadigital/brolga-icons#readme",
+    "files": [
+        "icons/"
+    ],
+    "devDependencies": {
+        "@rollup/plugin-typescript": "^8.3.2",
+        "@types/react": "^18.0.10",
+        "np": "^7.6.1",
+        "react": "^18.1.0",
+        "rollup": "^2.75.5",
+        "typescript": "^4.7.2"
+    }
 }
