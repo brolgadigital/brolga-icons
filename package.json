@@ -1,6 +1,6 @@
 {
     "name": "brolga-icons",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Icon set created for Brolga Digital's Creators site",
     "main": "react/index.js",
     "repository": {
