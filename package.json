@@ -26,6 +26,7 @@
     "homepage": "https://github.com/brolgadigital/brolga-icons#readme",
     "files": [
         "icons/",
+        "react/",
         "README.md"
     ],
     "scripts": {
