@@ -10,7 +10,10 @@
     "keywords": [
         "icon set",
         "icons",
-        "react icons"
+        "react icons",
+        "svg",
+        "svg icons",
+        "icon library"
     ],
     "publishConfig": {
         "access": "public"
@@ -38,10 +41,8 @@
         "@babel/plugin-transform-react-jsx": "^7.12.12",
         "@svgr/core": "^5.5.0",
         "camelcase": "^6.0.0",
+        "np": "^7.6.1",
         "rimraf": "^3.0.2",
         "svgo": "^2.8.0"
-    },
-    "dependencies": {
-        "np": "^7.6.1"
     }
 }
