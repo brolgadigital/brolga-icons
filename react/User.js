@@ -4,6 +4,9 @@ function User(props, svgRef) {
   return /*#__PURE__*/React.createElement("svg", Object.assign({
     xmlns: "http://www.w3.org/2000/svg",
     viewBox: "0 0 64 64",
+    width: true,
+    height: true,
+    strokeWidth: true,
     ref: svgRef
   }, props), /*#__PURE__*/React.createElement("path", {
     d: "M53.64 55v-4.28c0-11.73-9.12-21.72-20.85-22.14-12.31-.44-22.43 9.41-22.43 21.62V55c0 2.76 2.24 5 5 5h33.28c2.76 0 5-2.24 5-5Z",

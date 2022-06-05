@@ -8,7 +8,22 @@ const { dirname } = require("path");
 
 let transform = {
     react: async (svg, componentName, format) => {
-        let component = await svgr(svg, { ref: true }, { componentName });
+        let component = await svgr(
+            svg,
+            {
+                ref: true,
+                svgProps: {
+                    ["width"]: { "20px": "{props.size}" },
+                    ["height"]: { "20px": "{props.size}" },
+                    ["strokeWidth"]: { 2: "{props.stroke}" },
+                },
+                replaceAttrValues: {
+                    ["stroke"]: { black: "{props.color}" },
+                    ["strokeWidth"]: "inherit",
+                },
+            },
+            { componentName }
+        );
         let { code } = await babel.transformAsync(component, {
             plugins: [
                 [
