@@ -3,18 +3,18 @@
 ## Installation
 Add package via npm or yarn
 
-```
+```shell
 // npm
 npm install brolga-icons
 
-//yarn
+// yarn
 yarn add brolga-icons
 ```
 
 ## Using
 Import icons as React Components
 
-```
+```javascript
 import { User } from 'brolga-icons'
 
 export default MyFunction = () => {
