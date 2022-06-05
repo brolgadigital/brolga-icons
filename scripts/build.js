@@ -13,12 +13,12 @@ let transform = {
             {
                 ref: true,
                 svgProps: {
-                    ["width"]: { "20px": "{props.size}" },
-                    ["height"]: { "20px": "{props.size}" },
-                    ["strokeWidth"]: { 2: "{props.stroke}" },
+                    ["width"]: { "20px": `${props.size}` },
+                    ["height"]: { "20px": `${props.size}` },
+                    ["strokeWidth"]: { 2: `${props.stroke}` },
                 },
                 replaceAttrValues: {
-                    ["stroke"]: { black: "{props.color}" },
+                    ["stroke"]: { black: `${props.color}` },
                     ["strokeWidth"]: "inherit",
                 },
             },
