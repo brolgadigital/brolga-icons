@@ -4,7 +4,6 @@ const { promisify } = require("util");
 const rimraf = promisify(require("rimraf"));
 const svgr = require("@svgr/core").default;
 const babel = require("@babel/core");
-// const { compile: compileVue } = require("@vue/compiler-dom");
 const { dirname } = require("path");
 
 let transform = {
@@ -30,32 +29,6 @@ let transform = {
             )
             .replace("export default", "module.exports =");
     },
-    // vue: (svg, componentName, format) => {
-    //     let { code } = compileVue(svg, {
-    //         mode: "module",
-    //     });
-
-    //     if (format === "esm") {
-    //         return code.replace("export function", "export default function");
-    //     }
-
-    //     return code
-    //         .replace(
-    //             /import\s+\{\s*([^}]+)\s*\}\s+from\s+(['"])(.*?)\2/,
-    //             (_match, imports, _quote, mod) => {
-    //                 let newImports = imports
-    //                     .split(",")
-    //                     .map((i) => i.trim().replace(/\s+as\s+/, ": "))
-    //                     .join(", ");
-
-    //                 return `const { ${newImports} } = require("${mod}")`;
-    //             }
-    //         )
-    //         .replace(
-    //             "export function render",
-    //             "module.exports = function render"
-    //         );
-    // },
 };
 
 async function getIcons() {
