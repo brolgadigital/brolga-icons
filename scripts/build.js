@@ -38,7 +38,7 @@ async function getIcons() {
             svg: await fs.readFile(`./optimized/icons/${file}`, "utf8"),
             componentName: `${camelcase(file.replace(/\.svg$/, ""), {
                 pascalCase: true,
-            })}Icon`,
+            })}`,
         }))
     );
 }
