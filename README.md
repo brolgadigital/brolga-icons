@@ -4,10 +4,10 @@
 Add package via npm or yarn
 
 ``` zsh
-// npm
+# npm
 npm install brolga-icons
 
-// yarn
+# yarn
 yarn add brolga-icons
 ```
 
