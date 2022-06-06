@@ -13,13 +13,9 @@ let transform = {
             {
                 ref: true,
                 svgProps: {
-                    ["width"]: { "20px": `${props.size}` },
-                    ["height"]: { "20px": `${props.size}` },
-                    ["strokeWidth"]: { 2: `${props.stroke}` },
-                },
-                replaceAttrValues: {
-                    ["stroke"]: { black: `${props.color}` },
-                    ["strokeWidth"]: "inherit",
+                    width: "{props.size}",
+                    height: "{props.size}",
+                    strokeWidth: "{props.stroke}",
                 },
             },
             { componentName }

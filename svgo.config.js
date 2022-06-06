@@ -14,5 +14,16 @@ module.exports = {
                 },
             },
         },
+        {
+            name: "convertStyleToAttrs",
+            active: true,
+        },
+        {
+            name: "removeAttrs",
+            active: true,
+            params: {
+                attrs: "stroke-width",
+            },
+        },
     ],
 };

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect x="7.31" y="24.07" width="48.69" height="35.93" rx="5" ry="5" style="fill:none;stroke:#13386e;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/>
-  <path d="M17 24v-6.57c0-8.01 6.49-14.5 14.5-14.5S46 9.42 46 17.43" style="fill:none;stroke:#13386e;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/>
-  <circle cx="32.1" cy="39.68" r="5.5" style="fill:none;stroke:#13386e;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/>
-  <path style="fill:none;stroke:#13386e;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px" d="M32.1 53.18v-8"/>
+  <rect x="7.31" y="24.07" width="48.69" height="35.93" rx="5" ry="5" fill="none" stroke="#13386e" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M17 24v-6.57c0-8.01 6.49-14.5 14.5-14.5S46 9.42 46 17.43" fill="none" stroke="#13386e" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="32.1" cy="39.68" r="5.5" fill="none" stroke="#13386e" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32.1 53.18v-8" fill="none" stroke="#13386e" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

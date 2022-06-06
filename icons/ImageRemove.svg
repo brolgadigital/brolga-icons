@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect x="4" y="10" width="56" height="44" rx="5" ry="5" style="fill:none;stroke:#13386e;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/>
-  <circle cx="45.5" cy="21.5" r="5.5" style="fill:none;stroke:#13386e;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/>
-  <path d="m4 42.67 15.23-16.12a4.93 4.93 0 0 1 7.38.1l10.58 12.24c1.8 2.08 4.94 2.3 7 .48l3.29-2.91a4.927 4.927 0 0 1 6.82.28l5.7 5.92" style="fill:none;stroke:#13386e;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/>
-  <circle cx="47.57" cy="47.43" r="12.57" style="stroke:#13386e;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;fill:#fff"/>
-  <path style="fill:none;stroke:#13386e;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px" d="M40.32 47.43h14.51"/>
+  <rect x="4" y="10" width="56" height="44" rx="5" ry="5" fill="none" stroke="#13386e" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="45.5" cy="21.5" r="5.5" fill="none" stroke="#13386e" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m4 42.67 15.23-16.12a4.93 4.93 0 0 1 7.38.1l10.58 12.24c1.8 2.08 4.94 2.3 7 .48l3.29-2.91a4.927 4.927 0 0 1 6.82.28l5.7 5.92" fill="none" stroke="#13386e" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="47.57" cy="47.43" r="12.57" stroke="#13386e" stroke-linecap="round" stroke-linejoin="round" fill="#fff"/>
+  <path d="M40.32 47.43h14.51" fill="none" stroke="#13386e" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
